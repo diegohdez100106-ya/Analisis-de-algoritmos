@@ -1,0 +1,9 @@
+1.- Abre la terminal dentro de la carpeta que deseas subir.
+2.- Inicializa y prepara los archivos:
+    git init (inicializa el repositorio local)
+    git add . (agrega todos los archivos y subcarpetas de la carpeta actual)
+    git commit -m "Primer commit" (guarda los cambios localmente)
+3.- Vincula y sube a GitHub:
+    git branch -M main (asegura que la rama principal se llame main)
+    git remote add origin [https://github.com/TU-USUARIO/TU-REPOSitorio.git](https://github.com/TU-USUARIO/TU-REPOSitorio.git) (reemplaza con la URL de tu repositorio)
+    git push -u origin main (sube los archivos a GitHub)
